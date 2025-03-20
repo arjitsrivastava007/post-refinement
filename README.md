@@ -42,10 +42,18 @@ Connect the nodes to create a loop for iterative improvement.
 
 
 ## Run the Application
+### Locally
 ```bash
 streamlit run app.py
 ```
 
+### Docker container
+```bash
+docker-compose up -d
+```
+
+### Access the Application:
+Open your browser and navigate to http://localhost:8501
 
 ## Test and Refine
 - Test the application with different post content to ensure the critique and improvement workflow works as expected.
