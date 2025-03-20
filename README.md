@@ -9,14 +9,17 @@ This application takes social media post content as input and rectifies post con
 
 ## Set Up the Environment
 ### Install the required libraries:
-
+Create virtual environment
+```bash
+python3 -m venv env
+source env/bin/activate
+```
 ```bash
 pip install -r requirements.txt
 ```
 
 - streamlit: For the frontend.
 - langgraph: For building the critique and improvement workflow.
-
 - openai: For leveraging GPT models for critique and text generation.
 
 ### Set up your OpenAI API key:
